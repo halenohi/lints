@@ -1,3 +1,6 @@
+AllCops:
+  RunRailsCops: true
+
 # Allow indent after private/protected
 Style/IndentationConsistency:
   EnforcedStyle: rails
