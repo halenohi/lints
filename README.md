@@ -38,13 +38,18 @@ If you have not installed [`linter`](https://atom.io/packages/linter), you shoul
 
 ### atom
 
-1. Install rubocop `gem install rubocop`
-2. Intall `linter-rubocop` `apm install linter-rubocop`
+1. Intall linter-rubocop `apm install linter-rubocop`
 
 ## SCSS
 
 ### common
 
+1. Install scss-lint `gem install scss-lint`
+
 ### vim
 
+1. Just let the value `let g:syntastic_scss_checkers = ['scss_lint']`
+
 ### atom
+
+1. Intall linter-scss-lint `apm install linter-scss-lint`
